@@ -1,3 +1,4 @@
+import base.ListNode;
 class m82 {
     public static ListNode deleteDuplicates(ListNode head) {
         if(head == null) return head;

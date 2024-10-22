@@ -8,6 +8,7 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+import base.ListNode;
 class e83 {
     public static ListNode deleteDuplicates(ListNode head) {
         if (head == null ) {

@@ -8,6 +8,8 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
+import base.ListNode;
+
 class e21 {
     public static ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         // list1 或 list2 沒有更多節點要合併，直接返回剩下所有節點
