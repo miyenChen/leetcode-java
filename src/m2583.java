@@ -43,16 +43,23 @@ class m2583 {
 
     public static void main(String[] args) {
 
-        int[][] testCases = {
-                {5,8,9,2,1,3,7,4,6},
-                {5,8,9,2,1,3,7}
-        };
 
-        for (int[] testCase : testCases) {
+
+        List<List<Object>> testCases = Arrays.asList(
+                Arrays.asList(5,8,9,2,1,3,7,4,6),
+                Arrays.asList(5,8,9,2,1,3,7),
+                Arrays.asList(5,8,9,null,1,3,7)
+        );
+
+        for (List<Object> testCase : testCases) {
             TreeNode tree = BinaryTree.build(testCase);
             BinaryTree.print(tree);
+
             long result = kthLargestLevelSum(tree, 4); // 修改k的值進行測試
             System.out.println("Answer: " + result);
         }
+
+
+
     }
 }
