@@ -1,5 +1,3 @@
-import java.util.HashMap;
-
 public class m12 {
     public static String intToRoman(int num) {
         String[] romanNumerals = {"M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};

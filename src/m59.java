@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class m59 {
     public static int[][] generateMatrix(int n) {
         int[][] arr = new int[n][n];

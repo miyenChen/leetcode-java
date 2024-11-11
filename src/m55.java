@@ -1,4 +1,3 @@
-
 public class m55 {
     public static boolean canJump(int[] nums) {
         int target = nums.length - 1;

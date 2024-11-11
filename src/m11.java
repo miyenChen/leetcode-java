@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class m11 {
     public static int maxArea(int[] height) {
         int water = 0;
